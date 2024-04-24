@@ -7,14 +7,3 @@ metadata:
       app: eb-ms-app
     namespace: uat
 spec:
-  containers:
-    - name: eb-ms-nginx-instance
-      image: nginx
-      ports:
-        - name: http
-          containerPort: 80
-    - name: eb-ms-tomcat-instance
-      image: tomcat
-      ports:
-        - name: java
-          containerPort: 8080
