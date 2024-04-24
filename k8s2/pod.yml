@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata:
-    name: eb-ms-pod
-    labels:
-      env: uat-env
-      app: eb-ms-app
-    namespace: uat
-spec:
